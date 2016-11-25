@@ -1,0 +1,47 @@
+$primary-color:#83af9a;
+
+.profile-template{
+	table.ms-header{
+		background:#808080;
+
+		.title-big{font-size:48px;}
+		.title-small,
+		.title-big{color:$secondary-color;}
+
+		.title-small{font-weight:bold;}
+	}
+	table.ms-body{
+		background: $primary-color;
+		p,.title{color:$secondary-color;}
+	}
+
+	table.button{
+		width:80%;
+	table, td, tr{border-radius:$normal-radius;}
+		&:hover table tr td a{
+			color:$primary-color;
+		}
+		&:hover table td{background:transparent; }
+
+
+		td{
+			border: none;
+			background:$secondary-color; 
+			text-align:center;
+			a{
+				font-size:14px;
+				color:$btn-text-color;
+				padding:10px 20px;
+				font-weight:bold;
+			}
+		}
+
+		&.btn-send{
+			td{
+				background:$btn-text-color;
+				a{color:$secondary-color;}
+			}
+		}
+	}
+
+}

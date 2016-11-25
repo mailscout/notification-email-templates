@@ -1,0 +1,114 @@
+// These are the styles to make some of the templates look extra nice.
+// Feel free to remove these styles for production!
+
+// Body Styles 
+
+html {
+    background: #808080;
+}
+
+body, table.body, p, td, th{font-size:14px;}
+
+body, table.body, h1, h2, h3, h4, h5, h6, p, td, th, a{
+  font-family:'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+
+h2{font-weight:bold;}
+
+table{
+    &.button{
+
+    table{
+      td{
+        a{ padding:15px;font-size:15px;}
+      }
+    }
+  } 
+}
+
+table{
+      &.container{background:#fff;width:420px;}
+    &.body{
+
+        background-color: $body-bg-color;
+    }
+}
+
+p{line-height:25px;  font-size:14px;}
+
+.container.header {
+  background: #f3f3f3;
+}
+
+.body-drip {
+  border-top: 8px solid #663399;
+}
+
+img{display:inline-block;}
+ 
+th{
+  &.large-12{
+    &.last{padding-left: 30px;padding-right: 30px;}
+  }
+  &.large-6{
+      &.last{padding-left: 50px;padding-right: 50px;}
+  }
+}
+
+
+
+
+// Full Width Headers
+.header {
+  background: #8a8a8a;
+}
+
+.header .columns {
+  padding-bottom: 0;
+}
+
+.header p {
+  color: #fff;
+  padding-top: 15px;
+}
+
+.header .wrapper-inner {
+  padding: 20px;
+}
+
+.header .container {
+  background: transparent;
+}
+
+// Social Media
+table.button.facebook table td {
+  background: #3B5998 !important;
+  border-color: #3B5998;
+}
+
+table.button.twitter table td {
+  background: #1daced !important;
+  border-color: #1daced;
+}
+
+table.button.google table td {
+  background: #DB4A39 !important;
+  border-color: #DB4A39;
+}
+
+.wrapper.secondary {
+  background: #f3f3f3;
+}
+
+.wrapper.buttom-nav th{
+  background:#9e97ff;
+}
+
+.wrapper.buttom-info td{
+  padding:10px;
+}
+
+
+
+.float-center{text-align:center;}

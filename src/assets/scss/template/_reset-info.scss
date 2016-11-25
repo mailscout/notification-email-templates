@@ -1,0 +1,37 @@
+$primary-color : #4edeb5;
+
+.reset-template{
+	table.ms-header,
+	table.ms-body{
+		background: $secondary-color;
+	}
+	table.ms-header{
+		background: $primary-color;
+		*{ color: $secondary-color; }
+	}
+
+	table.button{
+		table{
+			td{ 
+				background: $primary-color;
+				border: none;
+			}
+		}
+
+		&.btn-reset{
+			td{
+				background:$primary-color;
+				border-radius:$normal-radius;
+				a{color:$secondary-color;padding:10px 30px;font-size:15px;}
+			}
+		}
+	}
+
+
+}
+
+table.footer{
+	width:420px;
+	th p{color:$footer-text-color;font-size:13px;}
+}
+

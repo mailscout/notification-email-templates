@@ -1,0 +1,37 @@
+$primary-color:#ea667f;
+
+.welcome-template{
+	background-image:url(http://i.imgur.com/aLbTyGs.png) !important;
+	background-repeat: no-repeat !important;
+    background-size: cover !important;
+	table.ms-header{
+	}
+	table.ms-body{
+		a{color:#afb6c6; padding:0 10px;}
+		p{color:#737b8c;}
+		span{color:$btn-text-color;}
+	}
+
+
+
+	table.button{
+	table, td, tr{border-radius:$round-radius;box-shadow: 0 2px 0 2px #b16559;}
+		&:hover table tr td a{
+			color:#fff;
+		}
+		&:hover table td{background:transparent; }
+
+
+		td{
+			border: none;
+			background:$primary-color; 
+			a{
+				font-size:14px;
+				color:$secondary-color;
+				padding:15px 20px;
+				font-weight: bold;
+			}
+		}
+	}
+
+}

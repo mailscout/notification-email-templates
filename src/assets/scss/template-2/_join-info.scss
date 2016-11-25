@@ -1,0 +1,27 @@
+.join-template{
+	table.ms-header{
+		.social-share{
+			th{
+				text-align: right; 
+				padding: 0 16px;
+				a{padding:0 5px;}
+			}
+		}
+
+		th.large-6.last {
+		    padding-left: 0px;
+		    padding-right: 0px;
+		}
+	}
+
+
+	table.ms-body{
+
+		th.large-6.last {
+		    padding-left: 30px;
+		    padding-right: 30px;
+		}
+	}
+}
+
+

@@ -1,0 +1,46 @@
+$primary-color:#18c197;
+
+.register2-template{
+	table.ms-header{
+		background:#808080;
+
+		.title-big{font-size:68px;}
+		.title-small, .title,
+		.title-big{color:#29353b;}
+
+		.title-small{font-weight:bold;}
+	}
+	table.ms-body{
+		td.large-6.first,
+		th.large-6.first{padding:0 30px;}
+
+	}
+
+	table.button{
+	table, td, tr{border-radius:$normal-radius;}
+		&:hover table tr td a{
+			color:$secondary-color;
+		}
+		&:hover table td{background:transparent; }
+
+
+		td{
+			border: none;
+			background:$primary-color; 
+			text-align:center;
+			a{
+				font-size:15px;
+				color:$secondary-color;
+				padding:15px 20px;
+			}
+		}
+
+		&.btn-send{
+			td{
+				background:$btn-text-color;
+				a{color:$secondary-color;}
+			}
+		}
+	}
+
+}

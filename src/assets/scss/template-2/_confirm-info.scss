@@ -1,0 +1,32 @@
+$primary-color:#f0f2f5;
+
+.confirm-template{
+	table.ms-body{
+		a{color:#afb6c6; padding:0 10px;}
+	}
+	table.ms-body,
+	table.ms-header{
+		background: $primary-color;
+		p,.title{color:#8189a1;}
+	}
+
+	table.button{
+	table, td, tr{border-radius:$round-radius;}
+		&:hover table tr td a{
+			color:$primary-color;
+		}
+		&:hover table td{background:transparent; }
+
+
+		td{
+			border: none;
+			background:#f06e6a; 
+			a{
+				font-size:14px;
+				color:$secondary-color;
+				padding:15px 20px;
+			}
+		}
+	}
+
+}

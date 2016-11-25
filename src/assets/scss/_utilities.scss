@@ -1,0 +1,25 @@
+$body-bg-color:#808080;
+$secondary-color:#fff;
+
+$input-bg-color:#f5f7f7;
+
+$btn-text-color:#000;
+
+$footer-text-color:#bbb9b9;
+
+
+$space-large : 40px;
+$space-md : 20px;
+.padding-large{ padding: ($space-large + $global-padding) 0 $space-large 0; }
+
+.padding-medium{padding:40px 0 0;}
+.padding-normal{padding:30px 0;}
+
+.text-uppercase{text-transform:uppercase;}
+.text-capitalize{text-transform:capitalize;}
+.text-lowercase{text-transform:lowercase;}
+.text-center{text-align:center;}
+.text-left{text-align:left;}
+.text-right{text-align:right;}
+
+

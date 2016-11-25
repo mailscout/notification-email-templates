@@ -1,0 +1,51 @@
+$primary-color:#39b8d3;
+
+.invoice-template{
+	.invoice-table table{
+	th{
+		    background:$primary-color;
+		    color: $secondary-color;
+		    font-weight: bold;
+		    padding: 10px;
+		    text-align:center;
+		    border-right: solid 1px #84d3e4;
+		}
+
+		td{
+		    background:#e6e6e6;
+		    padding: 10px;
+		    text-align:center;
+		    &:not(:last-child){
+		    	border-right: solid 1px #84d3e4;
+		    }
+		}
+
+	} 
+
+	.invoice-number{
+		tbody{
+			background:$primary-color;
+			th,td{
+				padding:20px;color:#fff;
+			}
+			tr{border-bottom:1px solid $secondary-color;}
+		}
+	}
+
+	.amount{
+		tbody{
+			float:right;
+			padding:20px 0;
+			th,td{
+				    padding:5px 20px;;
+			}
+			tr{
+				&:last-child {
+					background:$primary-color;
+					td{color: #fff;font-weight: bold;}
+				}
+				
+			}
+		}
+	}
+}

@@ -1,0 +1,51 @@
+$primary-color : #16b4ba;
+
+.checkout-template{
+	table.ms-body{
+		.bg-section{
+			background:$primary-color; 
+			*{ color: $secondary-color;}
+		}
+
+		th.large-12.last{padding:0;}
+
+		a{font-weight:bold;}
+		
+	}
+
+	.ms-content {
+	    background: #f5f5f5;
+	}
+
+
+	table.ms-header{
+		*{ color: $btn-text-color; font-weight:bold;}
+
+	}
+
+	th.large-6.last {
+	    padding-left: inherit;
+	    padding-right: inherit;
+	}
+
+	table.button{
+		table{
+			td{ 
+				background: $primary-color;
+				border: none;
+			}
+		}
+
+		&.btn-pass{
+			td{
+				background:$primary-color;
+				border-radius:$normal-radius;
+				a{color:$secondary-color;padding:20px 30px;font-size:15px;}
+			}
+		}
+	}
+
+
+}
+
+

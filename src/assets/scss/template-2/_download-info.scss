@@ -1,0 +1,40 @@
+$primary-color:#008ed6;
+
+.download-template{
+	table.ms-body{
+		a{color:#afb6c6; padding:0 10px 0 0;}
+	}
+
+	table.ms-header{
+		.house-icon{
+			background:$primary-color;
+			padding: 20px;
+		}
+	}
+
+	table.ms-body,
+	table.ms-header{
+		background: $secondary-color;
+		p,.title{color:$btn-text-color;}
+	}
+
+	table.button{
+	table, td, tr{border-radius:$round-radius;}
+		&:hover table tr td a{
+			color:$btn-text-color;
+		}
+		&:hover table td{background:transparent; }
+
+
+		td{
+			border: none;
+			background:$primary-color; 
+			a{
+				font-size:16px;
+				color:$secondary-color;
+				padding:15px 50px;
+			}
+		}
+	}
+
+}

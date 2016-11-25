@@ -1,0 +1,55 @@
+$primary-color:#ff7474;
+
+.travel-template{
+	background:transparent !important;
+	table.ms-header{
+		background:#808080;
+
+		.title-big{font-size:68px;}
+		.title-big, .title{color:$secondary-color;}
+		*{ color: $secondary-color; font-weight:bold;}
+
+
+		
+	}
+
+
+	table.ms-body{
+		background: transparent !important;
+		p,.title{color:#adadad;}
+
+		td.large-8.last, th.large-8.last, td.large-8.first, th.large-8.first{
+			background:$secondary-color;
+			border-radius: 10px;
+    		padding:25px 15px;
+		}
+
+		td.columns, td.column, th.columns, th.column{padding-bottom:0;}
+
+		td.large-5.first, th.large-5.first{padding-right:16px;padding-left:0;}
+		
+		td.large-5.last, th.large-5.last{
+			padding-left:16px;padding-right:0px;
+		}
+
+		th{
+			img{border-radius:10px;}
+		}
+
+		.title-small{font-weight:bold;}
+	}
+
+
+
+	.social{
+		a{
+			padding:0 15px 0 0;
+			font-weight: bold;
+			font-size: 12px;
+			color:$primary-color;
+			&:last-child{float:right;}
+		}
+		img{padding: 0 5px 0 0;}
+	}
+
+}

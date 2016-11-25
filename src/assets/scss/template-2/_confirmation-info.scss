@@ -1,0 +1,29 @@
+$primary-color:#02DABC;
+
+.confirmation-template{
+	table.ms-body{
+		a{color:#afb6c6; padding:0 10px;}
+		p{color:#8189a1;}
+	}
+
+
+	table.button{
+	table, td, tr{border-radius:$round-radius; box-shadow: 0 2px 0 2px #83bbb3;}
+		&:hover table tr td a{
+			color:$secondary-color;
+		}
+		&:hover table td{background:transparent; }
+
+
+		td{
+			border: none;
+			background:$primary-color; 
+			a{
+				font-size:16px;
+				color:$secondary-color;
+				padding:15px 20px;
+			}
+		}
+	}
+
+}

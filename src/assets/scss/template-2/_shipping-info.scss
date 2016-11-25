@@ -1,0 +1,93 @@
+$primary-color: #f9b356;
+
+.shipping-template{
+
+	table.ms-header{
+		th{background:$primary-color;padding:10px 10px 5px;}
+	}
+
+	.header-button{
+		.btn-order {
+		    background:#e2e2e2;
+		    padding: 10px;
+		    margin: 45px 0;
+		    font-weight: bold;
+		}
+
+		.btn-active {
+		    background:$primary-color;
+		    padding: 10px;
+		    margin: 45px 0;
+		    color: $secondary-color;
+		}
+	}
+	
+
+	table.ms-body{
+		span{color:$primary-color;}
+	}
+
+	th.large-12.last {
+	    padding-left: inherit;
+	    padding-right: inherit;
+	    background: #f5f5f5;
+    	padding: 16px;
+    	border: 1px solid #ccc;
+	}
+
+	.invoice-table table{
+		th{
+		    background:$primary-color;
+		    color: $secondary-color;
+		    font-weight: bold;
+		    padding:5px 10px;
+		    text-align:center;
+		    // border-right: solid 1px #84d3e4;
+		}
+
+		th:not(:last-child){border-right: solid 1px #ccc;}
+
+		tr:not(:last-child){border-bottom:1px solid #ccc;}
+
+		td{
+		    padding: 10px 10px 10px 0;
+		    text-align:center;
+		    vertical-align: middle;
+		}
+
+	} 
+
+	.order-accept{
+		background: #f5f5f5;
+		border: 1px solid #ccc;
+		.invoice-number{
+			tbody{
+				background:$primary-color;
+				th,td{
+				    padding: 5px 10px 0;
+				    color: #fff;
+				}
+				tr{border-bottom:1px solid $secondary-color;}
+			}
+		}
+
+		td.large-8.first, th.large-8.first, td.large-4.last, th.large-4.last{padding: 25px 16px 15px;}
+		
+	}
+
+	table.billing{
+		    border: 1px solid #ccc;
+
+	    th.large-4{background:#f5f5f5;padding: 10px 16px;;}
+	    th.large-4{border-right:1px solid #ccc;}
+		th,td{
+		    padding:5px 0px;font-size:10px;
+		}
+	}
+
+		table.ms-footer{
+			p,a{color:$secondary-color;}
+			a{padding:0 10px 0 0;}
+			th{background:$primary-color;padding:10px;}
+		}
+}

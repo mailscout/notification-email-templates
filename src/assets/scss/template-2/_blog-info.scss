@@ -1,0 +1,59 @@
+$primary-color:#83af9a;
+
+.blog-template{
+	table.ms-header{
+		background:#808080;
+
+		.title-big{font-size:68px;}
+		.title-big, .title{color:$secondary-color;}
+
+	}
+		.title-small{font-weight:bold;}
+
+
+	table.ms-body{
+		background: $secondary-color;
+		p,.title{color:#adadad;}
+	}
+
+	table.button{
+		width:80%;
+	table, td, tr{border-radius:$normal-radius;}
+		&:hover table tr td a{
+			color:$primary-color;
+		}
+		&:hover table td{background:transparent; }
+
+
+		td{
+			border: none;
+			background:$secondary-color; 
+			text-align:center;
+			a{
+				font-size:14px;
+				color:$btn-text-color;
+				padding:10px 20px;
+				font-weight:bold;
+			}
+		}
+
+		&.btn-send{
+			td{
+				background:$btn-text-color;
+				a{color:$secondary-color;}
+			}
+		}
+	}
+
+	.social{
+		a{
+			padding:0 15px 0 0;
+			font-weight: bold;
+			font-size: 12px;
+			color: #319e9d;
+			&:last-child{float:right;}
+		}
+		img{padding: 0 5px 0 0;}
+	}
+
+}

@@ -1,0 +1,36 @@
+$primary-color:#2fbbc8;
+
+.payment-template{
+	table.ms-header{
+		background: $primary-color;
+		border-top:5px solid #9bf7ff; 
+	}
+	table.ms-body{
+		a{color:#afb6c6; padding:0 10px;}
+		p{color:#737b8c;}
+		span{color:$btn-text-color;}
+	}
+
+
+
+	table.button{
+	table, td, tr{border-radius:$round-radius;}
+		&:hover table tr td a{
+			color:#fff;
+		}
+		&:hover table td{background:transparent; }
+
+
+		td{
+			border: none;
+			background:$primary-color; 
+			a{
+				font-size:14px;
+				color:$secondary-color;
+				padding:15px 20px;
+				font-weight: normal;
+			}
+		}
+	}
+
+}

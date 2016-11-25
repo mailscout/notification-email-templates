@@ -1,0 +1,45 @@
+$primary-color:#fdba30;
+
+.thanks-template{
+	border-radius: 5px;
+    box-shadow: rgba(68, 68, 68, 0.2) 0px 0px 7px;
+	table.ms-body{
+		background: $secondary-color;
+		p,.title{color:$secondary-color;}
+	}
+
+	table.button{
+		width:80%;
+	table, td, tr{border-radius:$round-radius;}
+		&:hover table tr td a{
+			color:$primary-color;
+		}
+		&:hover table td{background:transparent; }
+
+
+		td{
+			border: none;
+			background:$secondary-color; 
+			text-align:center;
+			a{
+				font-size:14px;
+				color:$btn-text-color;
+				padding:10px 20px;
+				font-weight:normal;
+			}
+		}
+
+		&.btn-send{
+			td{
+				background:$btn-text-color;
+				a{color:$secondary-color;}
+			}
+		}
+	}
+
+	td.large-6, th.large-6{
+		center{background:#fdba30;}
+	} 
+
+
+}

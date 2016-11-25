@@ -1,0 +1,47 @@
+$primary-color:#83af9a;
+
+.signup-template{
+	table.ms-body{
+		background: $secondary-color;
+		p,.title{color:#83af9a;}
+	}
+
+	table.button{
+		width:80%;
+	table, td, tr{border-radius:$round-radius;}
+		&:hover table tr td a{
+			color:$primary-color;
+		}
+		&:hover table td{background:transparent; }
+
+
+		td{
+			border: none;
+			background:#418ab9; 
+			text-align:center;
+			a{
+				font-size:15px;
+				color:$secondary-color;
+				padding:10px 20px;
+				font-weight:bold;
+			}
+		}
+
+		&.btn-send{
+			td{
+				background:#46d1fe;
+				a{color:$secondary-color;}
+			}
+		}
+
+		&.btn-sign{
+			td{
+				background:#fe4646;
+				a{color:$secondary-color;}
+			}
+		}
+	}
+
+
+
+}

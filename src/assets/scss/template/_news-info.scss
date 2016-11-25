@@ -1,0 +1,44 @@
+$primary-color : #1dc8e9;
+
+.info-template{
+	table.ms-header,
+	table.ms-body{
+		background: $secondary-color;
+	}
+	table.ms-header{
+		background: $primary-color;
+		*{ color: $secondary-color; }
+	}
+
+	table.button{
+		table{
+			td{ 
+				background: $primary-color;
+				border: none;
+			}
+		}
+	}
+
+	th.user-login{
+		.icon{
+			background:$primary-color;
+			padding:10px;
+			width: 20px;
+	    	height: 20px;
+		}
+		th.input{
+		th{
+			padding: 11px;
+		    background: $input-bg-color;
+		    color:$primary-color;
+		    }
+	    }
+	}
+
+}
+
+table.footer{
+	width:420px;
+	th p{color:$footer-text-color;font-size:13px;}
+}
+
